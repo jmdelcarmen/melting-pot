@@ -1,0 +1,22 @@
+{
+  "name": "melting-pot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jmdelcarmen/melting-pot.git",
+  "author": "Marco del Carmen <jesusmarcodelcarmen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack ./webpack.config.js",
+    "startDev": "webpack-dev-server ./webpack.config.js"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
+  }
+}

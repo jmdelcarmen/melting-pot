@@ -1,2 +1,2 @@
-# melting-pot
+# 🥘 melting-pot
 stuff done and stuff todo
