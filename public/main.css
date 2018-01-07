@@ -1,0 +1,47 @@
+body {
+  /* font-family: 'Merienda', cursive; */
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+#coming-soon {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 80%;
+  padding-top: 200px;
+  font-weight: 300;
+  font-size: 3em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo span {
+  font-family: 'Merienda', cursive;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: .5px;
+}
+
+.logo img {
+  position: absolute;
+  right: -55px;
+  top: -10px;
+}
+
+.navbar {
+  padding: 0 15%;
+}
+
+.txt-white {
+  color: #fff !important;
+}

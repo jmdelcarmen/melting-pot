@@ -1,6 +1,13 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { Router } from 'react-router-dom';
+import { createHashHistory } from 'history';
 
-import App from './components/App';
+import routes from './routes';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(
+  <Router history={createHashHistory()}>
+    {routes}
+  </Router>,
+  document.querySelector('#root'),
+);
